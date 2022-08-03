@@ -8,3 +8,29 @@
 
     • git config --global user.name «Ваше имя английскими буквами» 
     • git config --global user.email ваша почта@example.com 
+
+## Основные команды Git
+`- Инициализация репозитория:`
+
+    git init  
+
+`- Показыть текущее состояние git:`
+
+    git status
+
+`- Добавить содержимое рабочего каталога 
+в индекс (staging area) для последующего коммита:`
+
+    git add name_file
+
+`- Зафиксировать или сохранить изменения:`  
+
+    git commit -m "Comemment"
+
+`-  Показать журнал изменений:`  
+
+    git log
+
+`- Переключение между версиями:`  
+
+    git checkout ...(master)
