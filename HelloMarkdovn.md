@@ -6,8 +6,8 @@
 
 После установки необходимо «представиться» системе контроля версий. Это нужно сделать всего один раз, и Git запомнит Вас. Для этого нужно ввести в терминале 2 команды: 
 
-    • git config --global user.name «Ваше имя английскими буквами» 
-    • git config --global user.email ваша почта@example.com 
+    • git config --global user.name "[name]"
+    • git config --global user.email "[email address]"
 
 ## Основные команды Git
 `- Инициализация репозитория:`
@@ -21,15 +21,18 @@
 `- Добавить содержимое рабочего каталога 
 в индекс (staging area) для последующего коммита:`
 
-    git add name_file
+    git add [name_file]
+    git add .
 
 `- Зафиксировать или сохранить изменения:`  
 
-    git commit -m "Commeqnt"
+    git commit -m "Comment"
+    git commit -am "Comment"
 
 `-  Показать журнал изменений:`  
 
     git log
+    git log --oneline
 
 `- Переключение между версиями:`  
 
