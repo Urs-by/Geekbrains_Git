@@ -33,6 +33,7 @@
 
     git log
     git log --oneline
+    git log --graph 
 
 `- Переключение между версиями:`  
 
@@ -41,3 +42,20 @@
 `- Показать разницу между текущим файлом и сохранённым:`    
 
     git diff
+
+
+`- Создать новую ветку;`
+
+    git branch [name branch]
+
+`- Создать новую ветку и перейте в нее:` 
+
+    git checkout -b [name branch]
+
+`- Слить две ветки :`
+
+    git merge [master] [branch]
+
+`- Удалить ветку:`   
+
+    git branch -d [branch]
