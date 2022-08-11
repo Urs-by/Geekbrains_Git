@@ -56,6 +56,10 @@
 
     git merge [master] [branch]
 
+ `- Отменить слияние:`
+
+    git merge --abort  
+
 `- Удалить ветку:`   
 
     git branch -d [branch]
